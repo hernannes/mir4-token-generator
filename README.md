@@ -2,7 +2,8 @@
 Launcher + API to generate valid tokens to launch new instances of the game.
 
 Official Launcher Call Flow:
-![mir4-oficial-launcher-process (1)](https://github.com/hernannes/mir4-token-generator/assets/34843858/546319f4-35b2-4db8-bf81-138096c8c9c0)
+![mir4-oficial-launcher-process (1)](https://github.com/hernannes/mir4-token-generator/assets/34843858/4b93f2bc-c57c-458d-b5fb-3fe7f6b0cabb)
+
 
 
 There is an encryption performed between the launcher and some libraries. 
@@ -18,7 +19,8 @@ the modified launcher gets this token as an API response and starts a new instan
 
 Follows the flow of creating a new instance using the API
 
-![mir4-modified launcher+api (1)](https://github.com/hernannes/mir4-token-generator/assets/34843858/61e0b0a7-ab7b-4db4-9330-9d5844274b58)
+![mir4-modified launcher+api (1)](https://github.com/hernannes/mir4-token-generator/assets/34843858/1f7fe503-0da8-462d-b6bf-3318eda55b68)
+
 
 
 After the project is finished, you can use the API in conjunction with your launcher, just sending the data to the API as per the documentation, to get valid tokens.
